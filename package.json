@@ -1,0 +1,42 @@
+{
+  "name": "betting-software",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve-vue": "vue-cli-service serve --host localhost --port 8080",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "node app.js",
+    "api-dev": "nodemon api/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-alpha.6",
+    "vuex": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0-alpha.0",
+    "prettier-eslint": "^12.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "~2.1.0"
+  }
+}

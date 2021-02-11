@@ -1,0 +1,108 @@
+.grid {
+  display: grid;
+}
+.main-screen {
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 20px;
+}
+.game {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 5fr 2fr;
+}
+.teams {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-green {
+  background-color: rgb(100, 180, 60);
+}
+
+.generic-borders {
+  border: 1px solid rgb(200, 200, 200);
+}
+.rounded-borders {
+  border-radius: 5px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.pa-sm {
+  padding: 5px;
+}
+.pa-md {
+  padding: 15px;
+}
+.pa-lg {
+  padding: 30px;
+}
+
+.ma-sm {
+  margin: 5px;
+}
+.ma-md {
+  margin: 15px;
+}
+.my-sm {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mr-sm {
+  margin-right: 5px;
+}
+.mb-sm {
+  margin-bottom: 5px;
+}
+
+.separator {
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+.bold-separator {
+  border-color: #000;
+  border-width: 2px;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-green {
+  color: rgb(25, 165, 25);
+}
+.text-red {
+  color: rgb(165, 25, 25);
+}
+.text-blue {
+  color: rgb(50, 60, 170);
+}
+.text-white {
+  color: #fff;
+}
+.text-larger {
+  font-size: 20px;
+}
+.text-left {
+  text-align: left;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+}
+.width-400 {
+  width: 400px;
+}
+.bg-football {
+  background-color: rgb(155, 220, 155);
+}
+.bg-basketball {
+  background-color: rgb(200, 190, 160);
+}
+.bg-handball {
+  background-color: rgb(200, 160, 220);
+}
+.bg-grey {
+  background-color: rgb(235, 235, 235);
+}
